@@ -1,0 +1,460 @@
+﻿  Controller.cpp
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5,15): error C2011: Printer: переопределение типа "class"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3,31): error C2504: Reader: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(31,23): error C2039: "read_move": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(36,18): error C2039: "get_move": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(51,11): error C2027: использование неопределенного типа "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(58,11): error C2027: использование неопределенного типа "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(114,21): error C2027: использование неопределенного типа "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(115,13): error C2027: использование неопределенного типа "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Controller.cpp(115,22): error C2027: использование неопределенного типа "Printer"
+C:\Users\гоша\source\repos\lab1\lab1\Printer.h(5): message : см. объявление "Printer"
+  App.cpp
+C:\Users\гоша\source\repos\lab1\lab1\App.h(6,17): error C3646: contr: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(6,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(7,16): error C3646: fw: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(7,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(8,13): error C3646: printer: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(8,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,24): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,12): error C2614: App: недопустимая инициализация члена: "contr" не является базовым классом или членом
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,21): error C2614: App: недопустимая инициализация члена: "fw" не является базовым классом или членом
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(5,5): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(6,5): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(7,5): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(8,5): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(9,5): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(10,17): error C3861: _getch: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(15,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(21,5): error C2065: Controller: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(21,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cr"
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(21,16): error C2065: cr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(21,21): error C3861: Controller: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(22,5): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(22,13): error C2065: cr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(23,5): error C2065: fw: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(23,18): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(30,5): error C2065: Printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(30,14): error C2065: prt: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(30,20): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(31,19): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(34,9): error C3861: system: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(35,13): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(36,13): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(39,9): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(41,13): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(41,37): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(43,13): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(44,23): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(45,13): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(48,13): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(49,13): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(50,13): error C3861: system: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(54,9): error C2065: fw: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(55,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(56,9): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(56,32): error C2065: prt: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(57,16): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(58,5): error C3861: system: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(59,5): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(60,9): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(61,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(62,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(63,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(64,9): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(65,17): error C3861: _getch: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(68,13): error C3861: system: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(69,13): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(70,13): error C2065: fw: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(71,13): error C2065: printer: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.cpp(72,13): error C2065: printer: необъявленный идентификатор
+  Level.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  AObserver_sender.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(5,1): error C2504: Point2D: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(7,10): error C2039: "vector": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(7,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(7,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(7,48): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(11,21): error C3646: take_log: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(11,30): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(11,31): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,31): error C2061: синтаксическая ошибка: идентификатор "IObserver_receiver"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,34): error C2061: синтаксическая ошибка: идентификатор "IObserver_receiver"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(4,2): error C2065: observers: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(4,19): error C2039: "vector": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(4,25): error C2065: vector: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(4,26): error C2065: IObserver_receiver: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(4,45): error C2059: синтаксическая ошибка: >
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(9,17): error C2065: observers: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(9,2): error C3531: el: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(9,15): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(9,26): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(10,19): error C2039: "point": не является членом "AObserver_sender".
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(3): message : см. объявление "AObserver_sender"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(14,27): error C2039: "take_log": не является членом "AObserver_sender".
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(3): message : см. объявление "AObserver_sender"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(14,35): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(14,35): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "take_log"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(14,38): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(14,38): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(22,55): error C2761: "void AObserver_sender::receiver_add(void)": повторное объявление члена запрещено.
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(22,37): error C2065: IObserver_receiver: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(22,57): error C2065: o: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(23,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(23,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(27,58): error C2761: "void AObserver_sender::receiver_remove(void)": повторное объявление члена запрещено.
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(27,40): error C2065: IObserver_receiver: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(27,60): error C2065: o: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(28,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.cpp(28,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  Field.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\Field.cpp(107,36): error C2061: синтаксическая ошибка: идентификатор "Skin_player_esc"
+  Field_wiev.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  Level_0.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(14,19): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(14,42): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(15,19): error C2061: синтаксическая ошибка: идентификатор "Skin_player_esc"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(15,48): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(16,19): error C2061: синтаксическая ошибка: идентификатор "Skin_wall"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(16,42): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(17,19): error C2061: синтаксическая ошибка: идентификатор "Skin_player_speedup"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(17,52): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(18,19): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(18,42): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_0.cpp(20,18): error C2061: синтаксическая ошибка: идентификатор "Skin_finish"
+  Level_1.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(15,45): error C2061: синтаксическая ошибка: идентификатор "Skin_finish"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(15,65): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(17,19): error C2061: синтаксическая ошибка: идентификатор "Skin_finish"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(28,19): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(28,32): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(29,6): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(30,1): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(31,1): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(32,1): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(35,8): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(36,8): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(37,23): error C2061: синтаксическая ошибка: идентификатор "Skin_wall"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(37,47): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(37,52): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(37,60): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(37,60): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(39,8): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(40,9): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(41,23): error C2061: синтаксическая ошибка: идентификатор "Skin_wall"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(41,47): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(41,52): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(41,60): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(41,60): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(47,8): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(48,9): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(49,23): error C2061: синтаксическая ошибка: идентификатор "Skin_wall"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(49,47): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(49,56): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(49,60): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(49,60): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(50,8): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(51,9): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(52,23): error C2061: синтаксическая ошибка: идентификатор "Skin_wall"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(52,47): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(52,56): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(52,60): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Level_1.cpp(52,60): error C2059: синтаксическая ошибка: )
+  Mediator.cpp
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3,31): error C2504: Reader: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(5,13): error C3646: step_comand: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(5,24): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(6,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(6,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(6,17): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(8,14): error C2061: синтаксическая ошибка: идентификатор "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(9,13): error C3646: get_step_comand: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(9,28): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(9,36): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(10,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(10,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(10,23): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(11,13): error C3646: get_settings_info: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(11,30): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(11,43): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(12,13): error C3646: get_step_comand: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(12,28): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(12,30): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,11): error C7550: "Mediator::{ctor}": полное имя в этом контексте называет конструктор, а не тип.
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,20): error C2065: Point2D: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,28): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "set"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,40): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,44): error C2061: синтаксическая ошибка: идентификатор "Level_0"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,52): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(3,52): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(4,19): error C2039: "get_step_comand": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(4,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(4,34): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_step_comand"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(5,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(5,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(36,19): error C2039: "get_step_comand": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(36,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(36,1): error C2086: int Point2D: переопределение
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(4): message : см. объявление "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(36,34): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_step_comand"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(37,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(37,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(41,19): error C2039: "get_settings_info": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(41,36): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(41,1): error C2086: int Point2D: переопределение
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(4): message : см. объявление "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(41,36): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_settings_info"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(42,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(42,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,6): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,18): error C2039: "get_level": не является членом "Mediator".
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.h(3): message : см. объявление "Mediator"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,30): error C2059: синтаксическая ошибка: {
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,30): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Mediator.cpp(55,30): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  Player.cpp
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(3,39): error C2504: AObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(3,66): error C2504: IObserver_receiver: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(8,13): error C3646: last_move: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(8,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(9,13): error C3646: cur_move: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(9,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(10,13): error C3646: setti: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(10,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(12,12): error C2061: синтаксическая ошибка: идентификатор "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(13,15): error C2061: синтаксическая ошибка: идентификатор "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(17,13): error C3646: get_last_move: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(17,26): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(17,28): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(23,17): error C2061: синтаксическая ошибка: идентификатор "Event"
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(25,13): error C3646: get_log: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(25,20): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(25,31): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,9): error C7550: "Player::{ctor}": полное имя в этом контексте называет конструктор, а не тип.
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,16): error C2065: Point2D: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,24): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "lim"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,32): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,44): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,52): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,69): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(4,66): error C2065: lim: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(5,1): error C2059: синтаксическая ошибка: {
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(5,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(5,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(9,27): error C2761: "void Player::step(void)": повторное объявление члена запрещено.
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(9,19): error C2065: Point2D: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(9,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "move"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(10,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(10,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(18,8): error C2065: last_move: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(18,2): error C3861: point: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(19,2): error C3861: notify_movement: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(34,17): error C2039: "get_last_move": не является членом "Player".
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(34,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(34,30): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_last_move"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(35,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(35,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(42,7): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(42,12): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(42,37): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(42,41): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(43,10): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(43,15): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(43,46): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(43,50): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,7): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,12): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,34): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,48): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,67): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(44,71): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(45,15): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(45,20): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(45,43): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(45,47): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(46,12): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(46,17): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(46,37): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(46,41): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(59,26): error C2761: "void Player::update(void)": повторное объявление члена запрещено.
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(59,21): error C2065: Event: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(59,28): error C2065: ev: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(60,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(60,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(72,6): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(73,17): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(73,3): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(75,11): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(75,32): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(75,30): error C3861: Y: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(77,6): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(77,31): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(77,17): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(78,11): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(78,32): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(78,30): error C3861: X: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(81,17): error C2039: "get_log": не является членом "Player".
+C:\Users\гоша\source\repos\lab1\lab1\Player.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(81,24): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(81,24): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_log"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(81,27): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Player.cpp(81,27): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  Reader.cpp
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(6,13): error C3646: settings: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(6,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(11,13): error C3646: read_field_settings: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(11,32): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(11,34): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(12,13): error C3646: get_settings: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(12,25): error C2059: синтаксическая ошибка: (
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(12,27): error C2238: непредвиденные лексемы перед ";"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(6,22): error C3861: _getch: идентификатор не найден
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(7,14): error C2039: "cin": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(7,17): error C2065: cin: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(15,17): error C2039: "read_field_settings": не является членом "Reader".
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(3): message : см. объявление "Reader"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(15,36): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(15,36): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "read_field_settings"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(16,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(16,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,17): error C2039: "get_settings": не является членом "Reader".
+C:\Users\гоша\source\repos\lab1\lab1\Reader.h(3): message : см. объявление "Reader"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,1): error C2086: int Point2D: переопределение
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(15): message : см. объявление "Point2D"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,29): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_settings"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,32): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(25,32): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(30,10): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(30,15): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(31,10): error C2039: "cin": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(31,14): error C2065: cin: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(32,10): error C2039: "cout": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(32,15): error C2065: cout: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(32,23): error C2039: "endl": не является членом "std".
+C:\Users\гоша\source\repos\lab1\lab1\predefined C++ types (compiler internal)(342): message : см. объявление "std"
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(32,27): error C2065: endl: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\Reader.cpp(33,5): error C3861: system: идентификатор не найден
+  main.cpp
+C:\Users\гоша\source\repos\lab1\lab1\App.h(6,17): error C3646: contr: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(6,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(7,16): error C3646: fw: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(7,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(8,13): error C3646: printer: неизвестный спецификатор переопределения
+C:\Users\гоша\source\repos\lab1\lab1\App.h(8,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,24): error C2065: contr: необъявленный идентификатор
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,12): error C2614: App: недопустимая инициализация члена: "contr" не является базовым классом или членом
+C:\Users\гоша\source\repos\lab1\lab1\App.h(10,21): error C2614: App: недопустимая инициализация члена: "fw" не является базовым классом или членом
+  Trap.cpp
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(4,28): error C2504: IObserver_sender: не определен базовый класс
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(12,18): error C3668: AObserver_sender::receiver_add: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\AObserver_sender.h(13,18): error C3668: AObserver_sender::receiver_remove: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(7,6): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(8,21): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(8,45): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(8,54): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(8,58): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(8,58): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(9,21): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(9,45): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(9,54): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(9,58): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(9,58): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(10,21): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(10,45): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(10,50): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(10,56): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(10,56): error C2059: синтаксическая ошибка: )
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(11,21): error C2061: синтаксическая ошибка: идентификатор "Skin_bomb"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(11,45): error C2660: Field::set_event: функция не принимает 1 аргументов
+C:\Users\гоша\source\repos\lab1\lab1\Field.h(22,10): message : см. объявление "Field::set_event"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(11,50): error C2027: использование неопределенного типа "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Event.h(3): message : см. объявление "Player"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(11,56): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\гоша\source\repos\lab1\lab1\Trap.cpp(11,56): error C2059: синтаксическая ошибка: )
+  Создание кода...

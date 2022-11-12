@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="файлы\Events">
+      <UniqueIdentifier>{9241c059-08fa-4bba-9e16-77cab77360bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\Events\passive_Events">
+      <UniqueIdentifier>{d9d0c601-3757-45fc-9887-51c1ef76de70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\Events\active_events">
+      <UniqueIdentifier>{c31d616e-446b-4a82-8db5-3df23e0c4cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\Events\active_events\Level">
+      <UniqueIdentifier>{02037ac7-d26d-4969-a6ab-db79ff39ccb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\management">
+      <UniqueIdentifier>{b06917eb-e8f2-4efb-8d11-2a04ebff316d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\management\wiev">
+      <UniqueIdentifier>{8b5e745b-6971-47c8-b3ca-bf5380e37b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\management\other">
+      <UniqueIdentifier>{d09b4552-14b6-4feb-943a-c7bd4f6ce0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="файлы\objects">
+      <UniqueIdentifier>{f09d12cf-ca31-4190-a570-9512399211ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Field_wiev.cpp">
+      <Filter>файлы\management\wiev</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>файлы\management</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>файлы\management</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>файлы\management</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_finish.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_player_esc.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_player_speedup.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_wall.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_bomb.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>файлы\management</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_0.cpp">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_1.cpp">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_key.cpp">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>файлы\management</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="AObserver_sender.cpp">
+      <Filter>файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reader.h">
+      <Filter>файлы\management</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>файлы\management</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>файлы\management</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>файлы\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>файлы\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>файлы\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Field_wiev.h">
+      <Filter>файлы\management\wiev</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_finish.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_player_esc.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_player_speedup.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_wall.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>файлы\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="management.h">
+      <Filter>файлы\management\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_bomb.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>файлы\management</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_0.h">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="levels.h">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>файлы\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin_key.h">
+      <Filter>файлы\Events\passive_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>файлы\management</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>файлы\Events\active_events\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver_sender.h">
+      <Filter>файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver_receiver.h">
+      <Filter>файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AObserver_sender.h">
+      <Filter>файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
